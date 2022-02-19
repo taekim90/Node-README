@@ -18,7 +18,9 @@ OR... inside of terminal type "echo node_modules >> .gitignore" and "echo .env >
 14. To install a package locally, you want to be at the top level of the folder directory and then type in "npm i 'package'" (for example: npm i dayjs or npm install express)
 15. If you look inside of 'package.json' you will now see 'express' or whatever else added on to the dependencies
 16. type "killall node" to nodemon running on everything
-
+___
+## To install a node package globally
+- For nodemon... in the command line type: "npm i -g nodemon"
 ___
 ## Examples of code inside of index.js
 - const myModule = require('./myModule.js')
